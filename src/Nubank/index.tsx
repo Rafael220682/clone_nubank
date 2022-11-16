@@ -15,6 +15,8 @@ export function Nubank(){
             <View style={styles.cards}>
                  <Cards/>
             </View>
+      
+            <ScrollView horizontal showsHorizontalScrollIndicator={false}>
             <View style={styles.cardBlogItem}>
                     <View style={styles.cardBlog}>
                         <CardBlog link="https://www.google.com" text={
@@ -34,6 +36,7 @@ export function Nubank(){
                         Seguro e simples<Text style={styles.textPurple}> e cabe no seu bolso</Text></Text>}/>
                     </View>
             </View>
+            </ScrollView>
 
             <View style={styles.cardFunction}>
                 <Ionicons name="card" size={25} style={{marginLeft: -20}}/>

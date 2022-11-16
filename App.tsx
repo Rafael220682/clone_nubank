@@ -16,19 +16,19 @@ export default function App (){
           <Nubank/>
        </View>
 
-    //   <View style={styles.container}>
-    //       <Image style={styles.title} source={LogoNU}/>
-    //       <TextInput style={styles.input} 
-    //                   keyboardType={'email-address'}
-    //                   placeholder={"Digite seu email"}/>                   
-    //          <TextInput style={styles.input} 
-    //                     keyboardType={'numeric'}
-    //                     placeholder={"Digite sua senha"}
-    //                     secureTextEntry={true}/>
-    //         <TouchableOpacity style={styles.button}>
-    //              <Text style={styles.enter}>Entrar</Text>
-    //         </TouchableOpacity>
-    //   </View>
+      // <View style={styles.container}>
+      //     <Image style={styles.title} source={LogoNU}/>
+      //     <TextInput style={styles.input} 
+      //                 keyboardType={'email-address'}
+      //                 placeholder={"Digite seu email"}/>                   
+      //        <TextInput style={styles.input} 
+      //                   keyboardType={'numeric'}
+      //                   placeholder={"Digite sua senha"}
+      //                   secureTextEntry={true}/>
+      //       <TouchableOpacity style={styles.button}>
+      //            <Text style={styles.enter}>Entrar</Text>
+      //       </TouchableOpacity>
+      // </View>
    )
 }
 
