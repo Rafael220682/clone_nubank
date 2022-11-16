@@ -8,7 +8,7 @@ export function Topo() {
 
   return(
   <>
-    <View>
+    <View style={styles.container}>
         <View style={styles.upperView}>
           <View style={styles.userIcon}>
             <Ionicons name= "person-outline" size={30} color="#fff"  />
