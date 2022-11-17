@@ -8,9 +8,9 @@ export const styles = StyleSheet.create({
         height: "20%",
 
         padding: 40,
-        paddingRight: 12,
+        paddingRight: 16,
         paddingBottom: 8,
-        paddingLeft: 12,
+        paddingLeft: 16,
 
         backgroundColor: "#820AD1",
         justifyContent: "space-around",
@@ -25,11 +25,13 @@ export const styles = StyleSheet.create({
     },
 
     optionsIcon:{
+        
         marginTop: 15,
         flexDirection: "row",
     },
 
     userIcon:{
+        
         marginTop: 15,
         height: 40,
         width: 40,
@@ -63,17 +65,19 @@ export const styles = StyleSheet.create({
         fontSize: 20,
         fontWeight: "600",
         marginBottom: 10,
-
+        marginLeft: 16,
 
     },
 
     saldo:{
+        marginLeft: 16,
         fontSize: 24,
         fontWeight: "700",
         marginBottom: 8,
     },
 
     balaceTotalNotVisible:{
+        marginLeft: 16,
         marginTop: 8,
         height: 30,
         width: "70%",
@@ -84,11 +88,11 @@ export const styles = StyleSheet.create({
     optionView:{
         
         alignItems: "center",
-        marginRight: 8,
-
+        marginRight: 0,
+        marginLeft: 16,
     },
     optionIcon:{
-       
+        
         height: 90,
         width: 90,
         backgroundColor: "#e6e6e6",
@@ -98,6 +102,7 @@ export const styles = StyleSheet.create({
         
     },
     optionText:{
+        
         fontWeight: "700",
         fontSize: 16,
 

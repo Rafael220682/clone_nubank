@@ -5,13 +5,14 @@ export const styles = StyleSheet.create ({
     cards:{
         padding: 8,
         marginTop: 24,
+        
     },
 
     cardBlog:{
-        
+        marginLeft: 16,
         flexDirection: "row",
         marginTop: 16,
-        marginRight: 0,
+        marginRight: -24,
         padding: 10,
     },
 
@@ -34,6 +35,7 @@ export const styles = StyleSheet.create ({
         borderTopWidth: 1,
         borderColor: "#e6e6e6",
         marginTop: 24,
+        marginLeft: 20,
         padding: 24,
     },
 

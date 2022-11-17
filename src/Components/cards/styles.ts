@@ -7,10 +7,12 @@ export const styles = StyleSheet.create({
 
         backgroundColor:"#e6e6e6",
         borderRadius: 8,
+        marginLeft: 16,
     },
 
     textCard:{
-        marginLeft: 8,
+       
+        marginLeft: 16,
         fontWeight: "bold",
         fontSize: 20,
     }

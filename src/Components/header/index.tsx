@@ -74,7 +74,7 @@ export function Topo() {
                 <TouchableOpacity style={styles.optionIcon}>
                     <Ionicons name= "clipboard-outline" size={30} color="#908D91 " />
                 </TouchableOpacity>
-                <Text style={styles.optionText}>Recarga de Celular</Text>
+                <Text style={styles.optionText}>Recarga</Text>
               </View>
         </ScrollView>
       </View>
